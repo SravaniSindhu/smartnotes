@@ -1,0 +1,58 @@
+body.light {
+  background-color: #f5f7fb;
+  color: #222;
+}
+
+.light .card {
+  background: white;
+  color: #222;
+}
+
+.light textarea,
+.light input {
+  background: white;
+  color: #222;
+}
+
+/* DARK THEME */
+
+body.dark {
+  background-color: #1e1f25;
+  color: white;
+}
+
+.dark .card {
+  background: #2b2d35;
+  color: white;
+}
+
+.dark textarea,
+.dark input {
+  background: #2b2d35;
+  color: white;
+}
+
+.dark .list-group-item {
+  background: #2b2d35;
+  color: white;
+}
+
+.light ::placeholder {
+  color: #6c757d;
+}
+
+.dark ::placeholder {
+  color: #bbbbbb;
+}
+
+.dark input,
+.dark textarea {
+  background-color: #2b2d35;
+  color: white;
+}
+
+.light input,
+.light textarea {
+  background-color: white;
+  color: black;
+}
